@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stay Focused</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background: #0f172a;
+            color: white;
+        }
+        button {
+            margin: 10px;
+            padding: 15px;
+            border: none;
+            background: #38bdf8;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Stay Focused 💪</h1>
+    <p>You’ve got better things to do. Choose wisely 👇</p>
+
+    <!-- Motivational YouTube -->
+    <button onclick="goYouTube()">Motivation Videos</button>
+
+    <!-- Fitness -->
+    <button onclick="goFitness()">Workout Videos</button>
+
+    <!-- Learning -->
+    <button onclick="goLearn()">Learn Coding</button>
+
+    <!--music-->
+    <button onclick="golistentothis()">Learn Music</button>
+
+    <script>
+        function goYouTube() {
+            window.location.href = "https://www.youtube.com/results?search_query=self+discipline+motivation";
+        }
+
+        function goFitness() {
+            window.location.href = "https://www.youtube.com/results?search_query=home+workout";
+        }
+
+        function goLearn() {
+            window.location.href = "https://www.youtube.com/results?search_query=learn+html+for+beginners";
+        }
+
+        function golistentothis() {
+            window.location.href ="https://www.youtube.com/results?search_query=amapiano+mix";
+        }
+    </script>
+
+</body>
+</html>
